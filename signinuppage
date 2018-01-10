@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title><link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+.text-line {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+     border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #eeeeee 1px;
+    padding: 3px 10px;
+    margin:10px
+}
+.btn {
+    width: 250px;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+}
+.facebook {background-color: #2196F3;} /* Blue */
+.facebook:hover {background: #0b7dda;}
+.google {background-color: #f44336;} /* Red */ 
+.google:hover {background: #da190b;}
+</style>
+</head>
+<body><div style="background-color:#A9C1F8;padding:20px 50px 20px 50px"><h1><font color="#082A79"><center>Welcome to Contact Management</center></font></h1></div>
+<div class="row" style="padding:50px 50px 50px 50px">
+<div class="column1" style="float:left;width:50%;background-color:#FACAF7;height:300px">
+<center>
+<h3>Sign up</h3>
+<input type="text" class="text-line" placeholder="Name"/><br>
+<input type="email" class="text-line" placeholder="Email address"/><br>
+<input type="password" class="text-line" placeholder="password"/><br>
+<button type="submit" class="btn" style="background-color:#2FA024;width:100px">Sign up</button><br><br>
+</center></div>
+<div class="column2" style="float:right; width:50%; background-color:lightpink;height:300px">
+<center><h3>Sign in </h3><br>
+<button class="btn facebook" >Log in with Facebook</button><br><br><br>
+<button class="btn google" >Log in with Google</button><br><br><br><b</center>
+</div></div>
+</body>
+</html>
